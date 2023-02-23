@@ -1,5 +1,5 @@
 import pika, json
-import sys
+import sys, uuid
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
@@ -7,8 +7,8 @@ channel = connection.channel()
 channel.queue_declare(queue='task_queue', durable=True)
 
 my_dic = {
-    "transaction_id": "12ed2-223dfaa2958-12cdf",
-    "target_url": "https://google.com",
+    "transaction_id": str(uuid.uuid4()),
+    "target_url": "https://stackoverflow.com/questions/534839/how-to-create-a-guid-uuid-in-python",
     "requesters_ip": "192.168.220.17",
     "request_time": "12-10-2023 04:34:02.234",
     "requesters_broswer": "Chrome",
