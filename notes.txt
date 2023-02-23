@@ -1,0 +1,1 @@
+- Need to run seperate containers for the postgres app and the data

@@ -1,0 +1,1 @@
+docker build -t short_link -f short_link.dockerfile .

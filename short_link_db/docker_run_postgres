@@ -1,0 +1,1 @@
+sudo docker run --restart unless-stopped --name short_link --network lmstfy_net -e POSTGRES_PASSWORD=temp -p 5672:5672 -d short_link
