@@ -1,0 +1,10 @@
+{
+    "transaction_id": "45eed2-2adfdfaa2958-12cdf",
+    "provision": "00006",
+    "url": "www.google.com/someshit",
+    "request_time": "12-10-2023 04:34:02.234",
+    "return_queue": "front-end-1",
+    "job_type": "retrieve",
+    "worker_id": "container_01"
+
+}

@@ -1,0 +1,11 @@
+{
+    "transaction_id": "45eed2-2adfdfaa2958-12cdf",
+    "provision": "00006",
+    "requesters_ip": "192.168.220.17",
+    "request_time": "12-10-2023 04:34:02.234",
+    "requesters_broswer": "Chrome",
+    "requesters_device": "Iphone",
+    "return_queue": "front-end-1",
+    "job_type": "retrieve"
+
+}

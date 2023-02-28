@@ -1,0 +1,9 @@
+{
+    "transaction_id": "12ed2-223dfaa2958-12cdf",
+    "target_url": "https://google.com",
+    "provision": "192.168.220.17",
+    "request_time": "12-10-2023 04:34:02.234",
+    "return_queue": "front-end-1",
+    "job_type": "shorten",
+    "worker_id": "container_01"
+}
